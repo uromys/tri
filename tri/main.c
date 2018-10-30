@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
+#include <stdbool.h>
 int creation( int tailleT,int *tableau, int modulo)
 
 {
@@ -13,24 +13,61 @@ for (i=0;i<tailleT; i++)
     aleatoire=rand()%modulo;
     tableau[i]=aleatoire;
 
-    printf("%d",tableau[i]);
+    printf("%d,",tableau[i]);
     }
 }
+int tri_bulle (int tailleT,int *tableau)
+{
+bool order = true;
+int taille = sizeof(tableau);
+
+
+int i=0;
+int passage=0;
+
+    while (order)
+    {
+    order=false;
+
+        for(i=0;i<tailleT;i++)
+        {
+            if (tableau[i]>tableau[i+1])
+            {
+            passage++;
+            int temp=tableau[i];
+                tableau[i]=tableau[i+1];
+                tableau[i+1]= temp;
+                order=true;
+            }
+        }
+
+    }
+for (i=0;i<tailleT; i++)
+    {
+
+    printf("%d,",tableau[i]);
+
+    }
+}
+
+
+
 int main()
 {
-    int tableau[500];
+
     int tailleT;
     int modulo;
 
 
     printf("  taille du tableau  a trier ?");
     scanf("%d",&tailleT);
-    if (tailleT>500)
-        {
-        tailleT=500;}
+    int tableau[tailleT];
+
     printf("  taille des nombres  ?");
     scanf("%d",&modulo);
     creation(tailleT,tableau,modulo);
+    printf(" \n \n \n");
+    tri_bulle(tailleT,tableau);
 
 
 

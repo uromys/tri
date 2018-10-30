@@ -1,6 +1,7 @@
 # depslib dependency file v1.0
-1540914786 source:/home/anael/Documents/Code/tri/tri/main.c
+1540924933 source:/home/anael/Documents/Code/tri/tri/main.c
 	<stdio.h>
 	<stdlib.h>
 	<time.h>
+	<stdbool.h>
 

@@ -31,6 +31,24 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="Untitled2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Untitled3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Untitled4.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Untitled5.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="affichage.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="bubble.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>

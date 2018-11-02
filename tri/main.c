@@ -2,72 +2,35 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdbool.h>
-int creation( int tailleT,int *tableau, int modulo)
-
-{
-int i=0;
-srand(time(NULL));
-for (i=0;i<tailleT; i++)
-    {
-    int aleatoire;
-    aleatoire=rand()%modulo;
-    tableau[i]=aleatoire;
-
-    printf("%d,",tableau[i]);
-    }
-}
-int tri_bulle (int tailleT,int *tableau)
-{
-bool order = true;
-int taille = sizeof(tableau);
+#include <ctype.h>
 
 
-int i=0;
-int passage=0;
-
-    while (order)
-    {
-    order=false;
-
-        for(i=0;i<tailleT;i++)
-        {
-            if (tableau[i]>tableau[i+1])
-            {
-            passage++;
-            int temp=tableau[i];
-                tableau[i]=tableau[i+1];
-                tableau[i+1]= temp;
-                order=true;
-            }
-        }
-
-    }
-for (i=0;i<tailleT; i++)
-    {
-
-    printf("%d,",tableau[i]);
-
-    }
-}
 
 
 
 int main()
 {
 
-    int tailleT;
+    int tailleT=1;
     int modulo;
 
-
+do {
     printf("  taille du tableau  a trier ?");
+
     scanf("%d",&tailleT);
-    int tableau[tailleT];
+    printf("%d",isdigit(tailleT));}
+    while (isdigit( tailleT)==0);
+
+
+
 
     printf("  taille des nombres  ?");
+
     scanf("%d",&modulo);
-    creation(tailleT,tableau,modulo);
+     //int tableau[tailleT];
+    //creation(tailleT,tableau,modulo);
     printf(" \n \n \n");
-    tri_bulle(tailleT,tableau);
+    //tri_bulle(tailleT,tableau);
 
 
 

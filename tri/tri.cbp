@@ -34,9 +34,6 @@
 		<Unit filename="Untitled2.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="Untitled3.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="Untitled4.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -49,7 +46,13 @@
 		<Unit filename="bubble.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="creation.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="quicksort.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Extensions>

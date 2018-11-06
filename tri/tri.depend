@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1541181685 source:/home/anael/Documents/Code/tri/tri/main.c
+1541502890 source:/home/anael/Documents/Code/tri/tri/main.c
 	<stdio.h>
 	<stdlib.h>
 	<time.h>
@@ -11,7 +11,12 @@
 
 1540984960 source:/home/anael/Documents/Code/tri/tri/affichage.c
 
-1540986232 source:/home/anael/Documents/Code/tri/tri/Untitled3.c
+1541497641 source:/home/anael/Documents/Code/tri/tri/Untitled3.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<stdbool.h>
+	<ctype.h>
 
 1540984894 source:/home/anael/Documents/Code/tri/tri/Untitled4.c
 
@@ -22,4 +27,11 @@
 	<stdlib.h>
 	<time.h>
 	<stdbool.h>
+
+1541502613 source:/home/anael/Documents/Code/tri/tri/quicksort.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<stdbool.h>
+	<ctype.h>
 

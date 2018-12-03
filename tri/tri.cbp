@@ -37,9 +37,6 @@
 		<Unit filename="Untitled4.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="Untitled5.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="affichage.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -47,6 +44,9 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="creation.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fusionsort.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="main.c">

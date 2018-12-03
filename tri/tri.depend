@@ -1,15 +1,15 @@
 # depslib dependency file v1.0
-1541502890 source:/home/anael/Documents/Code/tri/tri/main.c
+1543851916 source:/home/anael/Documents/Code/tri/tri/main.c
 	<stdio.h>
 	<stdlib.h>
 	<time.h>
 	<stdbool.h>
 	<ctype.h>
 
-1540984813 source:/home/anael/Documents/Code/tri/tri/bubble.c
+1543851529 source:/home/anael/Documents/Code/tri/tri/bubble.c
 	<stdbool.h>
 
-1540984960 source:/home/anael/Documents/Code/tri/tri/affichage.c
+1543846756 source:/home/anael/Documents/Code/tri/tri/affichage.c
 
 1541497641 source:/home/anael/Documents/Code/tri/tri/Untitled3.c
 	<stdio.h>
@@ -22,16 +22,18 @@
 
 1540984905 source:/home/anael/Documents/Code/tri/tri/Untitled5.c
 
-1541179466 source:/home/anael/Documents/Code/tri/tri/creation.c
+1543846536 source:/home/anael/Documents/Code/tri/tri/creation.c
 	<stdio.h>
 	<stdlib.h>
 	<time.h>
 	<stdbool.h>
 
-1541502613 source:/home/anael/Documents/Code/tri/tri/quicksort.c
+1543846759 source:/home/anael/Documents/Code/tri/tri/quicksort.c
 	<stdio.h>
 	<stdlib.h>
 	<time.h>
 	<stdbool.h>
 	<ctype.h>
+
+1543853131 source:/home/anael/Documents/Code/tri/tri/fusionsort.c
 

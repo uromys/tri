@@ -2,12 +2,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdbool.h>
-int creation( int tailleT,int *tableau, int modulo)
+int creation( int sizeT,int *tableau, int modulo)
 
 {
 int i=0;
 srand(time(NULL));
-for (i=0;i<tailleT; i++)
+for (i=0;i<sizeT; i++)
     {
     int aleatoire;
     aleatoire=rand()%modulo;

@@ -5,14 +5,15 @@
 #include <ctype.h>
 
 
-    void tri_rapide ( int tailleT,int *tableau) {
+
+    void tri_rapide ( int sizeT,int *tableau) {
         int mur, courant, pivot, tmp;
-        if (tailleT < 2) return;
-        // On prend comme pivot l element le plus a droite
-        pivot = tableau[tailleT - 1];
+        if (sizeT < 2) return;
+        // we take as first the one in the right
+        pivot = tableau[sizeT - 1];
         mur =  0;
         courant=0;
-        while (courant<tailleT) {
+        while (courant<sizeT) {
             if (tableau[courant] <= pivot) {
                 if (mur != courant) {
                     tmp=tableau[courant];
@@ -21,9 +22,18 @@
                 }
                 mur ++;
             }
+
+
             courant ++;
         }
+
+
         tri_rapide(mur - 1,tableau );
-        tri_rapide(tailleT - mur + 1,tableau + mur - 1 );
+
+        tri_rapide(sizeT - mur + 1,tableau + mur - 1 );
+        affichage(sizeT ,tableau);
+
+
+
     }
 

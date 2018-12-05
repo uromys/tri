@@ -1,11 +1,11 @@
-void fusion(int *tableau,int start1,int end1,int end2)
+void fusion(int *tableau,int start1,int end1,int end2,int sizeT)
         {
         int *array;
         int start2=end1+1;
         int count1=start1;
         int count2=start2;
         int i;
-
+        affichage(sizeT,tableau);
         array=malloc((end1-start1+1)*sizeof(int));
 
 
@@ -38,19 +38,22 @@ void fusion(int *tableau,int start1,int end1,int end2)
         }
 
 
-void tri_fusion_bis(int *tableau,int deb,int fin)
+void tri_fusion_bis(int *tableau,int deb,int fin,int sizeT)
         {
+
         if (deb!=fin)
             {
             int milieu=(fin+deb)/2;
-            tri_fusion_bis(tableau,deb,milieu);
-            printf("array works in progress \n");
-            affichage(fin,tableau);
-             printf("array 2  works in progress \n");
-            affichage(deb,tableau);
-            tri_fusion_bis(tableau,milieu+1,fin);
+            //printf("array  1works in progress \n");
+            //affichage(deb+fin,tableau);
+            tri_fusion_bis(tableau,deb,milieu,sizeT);
 
-            fusion(tableau,deb,milieu,fin);
+
+             //printf("array 2  works in progress \n");
+            //affichage(fin,tableau);
+            tri_fusion_bis(tableau,milieu+1,fin,sizeT);
+
+            fusion(tableau,deb,milieu,fin,sizeT);
 
             }
         }
@@ -59,7 +62,8 @@ void tri_fusion(int sizeT,int *tableau)
      {
      if (sizeT>0)
             {
-            tri_fusion_bis(tableau,0,sizeT-1);
+
+            tri_fusion_bis(tableau,0,sizeT-1, sizeT);
 
             }
      }

@@ -31,12 +31,6 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="Untitled2.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="Untitled4.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="affichage.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -44,6 +38,9 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="creation.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="double.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="fusionsort.c">

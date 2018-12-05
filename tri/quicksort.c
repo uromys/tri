@@ -14,6 +14,7 @@
         mur =  0;
         courant=0;
         while (courant<sizeT) {
+
             if (tableau[courant] <= pivot) {
                 if (mur != courant) {
                     tmp=tableau[courant];
@@ -26,12 +27,13 @@
 
             courant ++;
         }
+        affichage(sizeT ,tableau);
 
 
         tri_rapide(mur - 1,tableau );
 
         tri_rapide(sizeT - mur + 1,tableau + mur - 1 );
-        affichage(sizeT ,tableau);
+
 
 
 
